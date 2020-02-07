@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'TT_Travel';
+    src: url('../../materials/fonts/TT_Travel/TTTravels-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Schnyder_Cond_XL_Demi';
+    src: url('../../materials/fonts/Schnyder_X_Condensed/Schnyder_X_Cond_XL_Demi.otf'); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Schnyder_Cond_XL_Light';
+    src: url('../../materials/fonts/Schnyder_X_Condensed/Schnyder_X_Cond_XL_Light.otf'); 
+    font-weight: 400;
+    font-style: normal;
+}

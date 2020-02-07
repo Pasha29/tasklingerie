@@ -1,0 +1,135 @@
+/* Start image styles */
+.content{
+    position: relative;
+    overflow: hidden;
+    &__image{
+        height: 775px;
+        position: relative;
+        top:-100px;
+            .content__left-img{
+                position: absolute;
+                width: 238px;
+                height: 331px;
+                left: 229.19px;
+                top: 201.76px;
+                
+                background-image: url('../../materials/images/image2.png');
+                background-repeat: no-repeat;
+                background-size: 222%;
+                background-position: 50% -50px;
+                transform: rotate(1.1deg);
+            }
+            
+            .content__middle-img{
+                position: absolute;
+                width: 476px;
+                height: 702px;
+                left: 491.27px;
+                top: 73.89px;
+            
+                background-image: url('../../materials/images/image1.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                transform: rotate(1.5deg);
+            }
+            
+            .content__right-img{
+                position: relative;
+                width: 345px;
+                height: 238px;
+                left: 890.32px;
+                top: 494.97px;
+                
+                background-image: url('../../materials/images/image3.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-y: -100px;
+                transform: rotate(2.03deg);
+            }
+    }
+}
+/* End image styles */
+
+
+/* Start slider styles */
+.content__slider{
+    position: absolute;
+    top:calc(50% - 50px);
+    max-width:1440px;
+    display: flex;
+    .content__left-text, .content__middle-text, .content__right-text{
+        width: 609px;
+        height: 109px;
+
+        &:hover:after{
+            content:'Drag me';
+            position: absolute;
+            left:0.1px;
+            right: 0.1px;
+            animation-name:dragme;
+            animation-duration:2s;
+
+            width:100%;
+            background-color:#555;
+            color:red;
+            animation: 3s ease-in forwards dragme;
+            animation-iteration-count: 2;
+            opacity: 0;
+        }
+
+        @keyframes dragme {
+            0% {
+                opacity: 0;
+            }
+            50%{
+                opacity: 0.9;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        font-family: 'Schnyder_Cond_XL_Demi';
+        font-size: 125.581px;
+        line-height: 86%;
+
+        text-transform: uppercase;
+        mix-blend-mode: darken;
+        letter-spacing: 10px;
+        text-align: center;
+    
+        color:white;
+        text-shadow: #580300 1px 1px 0, #580300 -1px -1px 0,
+        #580300 -1px 1px 0, #580300 1px -1px 0;
+    }
+    
+    .content__left-text{
+        // left: -526.59px;
+        // top: 389.94px;
+        transform: rotate(-1.5deg);
+        box-sizing: border-box;
+    }
+    
+    .content__middle-text{
+        // left: 416px;
+        // top: 376px;
+        color: #580300;
+    }
+    
+    .content__right-text{
+        // left: 1346.53px;
+        // top: 368.06px;
+        transform: rotate(1.5deg);
+        box-sizing: border-box;
+    }
+}
+/* End slider styles */
+
+/*Social network styles*/
+.main__soc-net{
+    position: relative;
+    width: 112px;
+    height: 14px;
+    left: 48px;
+    bottom: 47px;
+}
