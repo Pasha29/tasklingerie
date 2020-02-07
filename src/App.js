@@ -4,13 +4,16 @@ import './materials/resetstyles/reset.css';
 import css from './App.module.scss';
 import Header from './Components/Header/Header.js';
 import Main from './Components/Main/Main.js';
+import {HashRouter} from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className={css['container']}>
-      <Header />
-      <Main />
-    </div>
+    <HashRouter>
+      <div className={css['container']}>
+        <Header />
+        <Main />
+      </div>
+      </HashRouter>
   );
 }
 
