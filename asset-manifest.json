@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tasklingerie/static/css/main.d66d982a.chunk.css",
+    "main.js": "/tasklingerie/static/js/main.db5d4473.chunk.js",
+    "main.js.map": "/tasklingerie/static/js/main.db5d4473.chunk.js.map",
+    "runtime-main.js": "/tasklingerie/static/js/runtime-main.8bc8b7b6.js",
+    "runtime-main.js.map": "/tasklingerie/static/js/runtime-main.8bc8b7b6.js.map",
+    "static/css/2.382c35bb.chunk.css": "/tasklingerie/static/css/2.382c35bb.chunk.css",
+    "static/js/2.93c35cdd.chunk.js": "/tasklingerie/static/js/2.93c35cdd.chunk.js",
+    "static/js/2.93c35cdd.chunk.js.map": "/tasklingerie/static/js/2.93c35cdd.chunk.js.map",
+    "index.html": "/tasklingerie/index.html",
+    "precache-manifest.6c6276871c18b4a7e1dc784a093e223b.js": "/tasklingerie/precache-manifest.6c6276871c18b4a7e1dc784a093e223b.js",
+    "service-worker.js": "/tasklingerie/service-worker.js",
+    "static/css/2.382c35bb.chunk.css.map": "/tasklingerie/static/css/2.382c35bb.chunk.css.map",
+    "static/css/main.d66d982a.chunk.css.map": "/tasklingerie/static/css/main.d66d982a.chunk.css.map",
+    "static/js/2.93c35cdd.chunk.js.LICENSE.txt": "/tasklingerie/static/js/2.93c35cdd.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/tasklingerie/static/media/TTTravels-Regular.2dc2ec64.ttf",
+    "static/media/header_logo.svg": "/tasklingerie/static/media/header_logo.0da9d3c4.svg",
+    "static/media/Main.module.scss": "/tasklingerie/static/media/image3.9cbc856d.png",
+    "static/media/App.module.scss": "/tasklingerie/static/media/main_bg.06a4fc7f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bc8b7b6.js",
+    "static/css/2.382c35bb.chunk.css",
+    "static/js/2.93c35cdd.chunk.js",
+    "static/css/main.d66d982a.chunk.css",
+    "static/js/main.db5d4473.chunk.js"
+  ]
+}
